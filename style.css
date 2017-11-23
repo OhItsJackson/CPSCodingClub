@@ -1,0 +1,46 @@
+* {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-family:Verdana, sans-serif;
+}
+
+/* Remove default margin */
+
+body {
+  margin: 0;
+}
+
+/* Navigation Bar
+------------*/
+
+.navigation a {
+  color: black;
+  padding: 6px 18px 5px 18px;
+  text-decoration: none;
+}
+
+.navigation a:hover,
+.on{
+  color: dimgray;
+}
+
+.navigation {
+  width: 570px;
+  padding: 15px;
+  margin: 0px auto 0px auto;
+  margin: 0px auto 0px auto;
+  text-align: center;
+  border-bottom: 1px solid gray;
+}
+
+.navigation li{
+  display:inline;
+}
+
+/*Title
+----------------*/
+
+.title,
+.intro{
+    text-align:center;
+}
